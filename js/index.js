@@ -1,8 +1,8 @@
 function changeHeight() {
-  let letters = document.getElementById("letters");
-  let widgets = document.getElementById("widgets");
-  let days = document.getElementById("days");
-  let cases = document.getElementById("cases");
+  const letters = document.getElementById("letters");
+  const widgets = document.getElementById("widgets");
+  const days = document.getElementById("days");
+  const cases = document.getElementById("cases");
   if (window.matchMedia("(max-width: 320px)").matches) {
     letters.textContent = "Кейсы";
     widgets.textContent = "30 виджетов";
